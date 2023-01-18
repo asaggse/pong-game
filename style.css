@@ -1,8 +1,20 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #game {
     width: 400px;
     height: 300px;
+    /* width: 800px; */
+    /* height: 600px; */
     background-color: black;
     position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #paddle-left,
