@@ -52,15 +52,24 @@ body {
     position: absolute;
 }
 
-/* #scores {
-    position: absolute;
+#scores {
+    position: relative;
     top: 10px;
     right: 10px;
     color: white;
+
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#player1-score,
+#player1-score {
+    position: absolute;
+    left: 25%;
+    top: 10px;
+}
+
 #player2-score {
-    display: inline-block;
-    padding: 10px;
-} */
+    position: absolute;
+    right: 25%;
+    top: 10px;
+}
